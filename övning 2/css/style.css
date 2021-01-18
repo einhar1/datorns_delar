@@ -1,0 +1,53 @@
+#wrapper{
+  width: 100%;
+}
+
+header{
+  height: 100px;
+  width: 100%;
+  background-color: #cc1d51;
+}
+nav{
+  height: 50px;
+  width: 100%;
+  background-color: #4eb55c;
+}
+main{
+  height: 400px;
+  width: 60%;
+  background-color: #821a8a;
+}
+aside{
+  height: 400px;
+  width: 40%;
+  background-color: #9e672c;
+}
+footer{
+  height: 50px;
+  width: 100%;
+  background-color: #2138cf;
+}
+#container{
+  display: flex;
+}
+
+/* unvisited link */
+a:link {
+  color: red;
+  text-decoration: none;
+}
+
+/* visited link */
+a:visited {
+  color: red;
+}
+
+/* mouse over link */
+a:hover {
+  color: hotpink;
+}
+
+/* selected link */
+a:active {
+  color: hotpink;
+}
