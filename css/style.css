@@ -7,7 +7,7 @@ body{
 }
 
 header{
-  height: 20vh;
+  height: 10vh;
   width: 100%;
   background-color: #cc1d51;
 }
@@ -17,12 +17,12 @@ nav{
   background-color: #4eb55c;
 }
 main{
-  height: 60vh;
+  height: 70vh;
   width: 70%;
   background-color: #821a8a;
 }
 aside{
-  height: 60vh;
+  height: 70vh;
   width: 30%;
   background-color: #9e672c;
 }
@@ -39,23 +39,23 @@ footer{
 a:link {
   color: red;
   text-decoration: none;
-  font-size: 40px;
+  font-size: 2.5vw;
 }
 
 /* visited link */
 a:visited {
   color: red;
-  font-size: 40px;
+  font-size: 2.5vw;
 }
 
 /* mouse over link */
 a:hover {
   color: hotpink;
-  font-size: 40px;
+  font-size: 2.5vw;
 }
 
 /* selected link */
 a:active {
   color: hotpink;
-  font-size: 40px;
+  font-size: 2.5vw;
 }
