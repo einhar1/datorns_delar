@@ -7,11 +7,13 @@ body{
   width: 100%;
   height: 100vh;
 }
-
 header{
   width: 100%;
-  background-color: #7bc9e8;
   overflow: hidden;
+  background-color: lightblue;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-image: url("../images/550493.png");
 }
 nav{
   width: 100%;
@@ -42,6 +44,9 @@ h3.footer{
 #container{
   display: flex;
 }
+img{
+  width: 100%;
+}
 nav a {
   float: left;
   color: #f2f2f2;
@@ -57,4 +62,10 @@ nav a:hover {
 nav a.active {
   background-color: #4CAF50;
   color: white;
+}
+main a:visited{
+  color: blue;
+}
+main a:active{
+  color: red;
 }
