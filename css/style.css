@@ -68,3 +68,9 @@ main a:visited{
 main a:active{
   color: red;
 }
+aside a:visited{
+  color: blue;
+}
+aside a:active{
+  color: red;
+}
