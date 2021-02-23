@@ -46,6 +46,11 @@ img{
   display: block;
   margin-bottom: 5px;
 }
+@media screen and (max-width: 800px) {
+  main, aside{
+    width: 100%;
+  }
+}
 nav a {
   float: left;
   color: #f2f2f2;
