@@ -47,6 +47,9 @@ img{
   margin-bottom: 5px;
 }
 @media screen and (max-width: 800px) {
+  #container{
+    display: block;
+  }
   main, aside{
     width: 100%;
   }
