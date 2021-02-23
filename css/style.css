@@ -50,8 +50,12 @@ img{
   #container{
     display: block;
   }
-  main, aside{
+  main{
     width: 100%;
+  }
+  aside{
+    width: 100%;
+    min-height: 0;
   }
 }
 nav a {
