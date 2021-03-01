@@ -52,10 +52,14 @@ img{
   }
   main{
     width: 100%;
+    min-height: 0;
   }
   aside{
     width: 100%;
     min-height: 0;
+  }
+  nav{
+    position: static;
   }
 }
 nav a {
